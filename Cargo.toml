@@ -39,7 +39,7 @@ default-features = false
 version = "^0.3.0"
 default-features = false
 
-[dependencies.ark-poly-commit]
+[dependencies.ark-poly-commit-new]
 git = "https://github.com/SaraSorianoRossa/Poly-Commit.git"
 default-features = false
 
@@ -102,6 +102,6 @@ default-features = false
 
 [features]
 default = ["std", "parallel"]
-parallel = ["std", "ark-ff/parallel", "ark-poly/parallel", "ark-std/parallel", "ark-poly-commit/parallel", "rayon"]
+parallel = ["std", "ark-ff/parallel", "ark-poly/parallel", "ark-std/parallel", "ark-poly-commit-new/parallel", "rayon"]
 print-trace = ["ark-std/print-trace"]
-std = ["ark-ff/std", "ark-poly/std", "ark-relations/std", "ark-std/std", "ark-serialize/std", "ark-poly-commit/std"]
+std = ["ark-ff/std", "ark-poly/std", "ark-relations/std", "ark-std/std", "ark-serialize/std", "ark-poly-commit-new/std"]
